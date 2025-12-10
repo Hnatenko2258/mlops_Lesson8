@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  PULUMI_STATE: s3://pulumi-state-ach7mohb
+  PULUMI_STATE: s3://my-cats-dogs-pulumi
 
 jobs:
   deploy:

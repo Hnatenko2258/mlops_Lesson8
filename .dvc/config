@@ -1,0 +1,7 @@
+[core]
+    remote = s3remote
+['remote "storage"']
+    url = s3://dvcstore-my-storage/shared
+['remote "s3remote"']
+    url = s3://my-cats-dogs-dvc/models
+    region = us-east-1
