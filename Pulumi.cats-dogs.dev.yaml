@@ -1,6 +1,6 @@
 config:
   aws:region: us-east-1
-  cats-dogs:docker_build_context: .
+  cats-dogs:docker_build_context: "l11-cats-dogs-example"
   cats-dogs:dockerfile: Dockerfile
   cats-dogs:docker_platform: linux/arm64 # or linux/amd64
   cats-dogs:cpu_architecture: ARM64 # or X86_64
